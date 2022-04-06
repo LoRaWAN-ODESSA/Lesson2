@@ -8,6 +8,7 @@ public class Car {
 
     void printCarInfo(){
         System.out.println("Car model: " + carModel + "; " + "Year: " + carYear);
-        System.out.println("Car engine configuration: " + carEngineConf + "; " + "Transmission : " + carTransmission);
+        System.out.println("Car engine configuration: " + carEngineConf + "; "
+                + "Transmission : " + carTransmission);
     }
 }
